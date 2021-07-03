@@ -4,6 +4,12 @@
     box-sizing: border-box;
   }
 
+  *,
+*:before,
+*:after {
+  box-sizing: inherit;}
+
+
   body {
     background: url("../images/cactus.JPG");
     margin: 0;
@@ -262,13 +268,11 @@
   #About-Me p:hover {
     color: royalblue;
     text-transform: capitalize;
-    text-shadow: hotpink;
   }
 
   li:hover {
     text-rendering: optimizeSpeed;
     size: 100px;
-    color: hotpink;
     font-weight: 800;
   }
 
@@ -280,68 +284,51 @@
     height: 250px;
   }
 
-  
-  footer {
-    padding: 20px 35px;
-    background-color: royalblue;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+footer {
+  padding: 20px 35px;
+  background-color: royalblue;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-  footer h2 {
-    font-weight: bold;
-    font-size: 45px;
-    color: white;
-    margin: 0;
-    display: inline;
+footer h2 {
+  font-weight: bold;
+  font-size: 45px;
+  color: white;
+  margin: 0;
+  display: inline;
 }
 
-  footer a {
-    text-decoration: none;
-    color: white;
+footer a {
+  text-decoration: none;
+  color: white;
 }
 
-  footer nav {
-    margin: 7px 0;
+footer nav {
+  margin: 7px 0;
 }
 
-  footer nav ul li {
-    display: inline;
-  }
+footer nav ul li {
+  display: inline;
+}
 
-  footer nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-  }
+footer nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
 
-  footer nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-  }
+footer nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
 
 .flex-row {
-  display: flex;
-}
-
-
-
-
-  
-  body:before, body:after {
-    content: "";
-    background: #900;
-    height: 3px;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
+display: flex;
 }
   
 
