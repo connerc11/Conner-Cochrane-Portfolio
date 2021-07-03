@@ -1,13 +1,14 @@
-* {
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
-  *,
-*:before,
-*:after {
-  box-sizing: inherit;}
+    *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
 
 
   body {
@@ -20,184 +21,13 @@
     border-left: 10px solid royalblue;
     border-right: 10px solid royalblue;  
   }
-  
 
-  main {
-    width: 80%;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: white;
-    border: 4px solid gray;
-  }
-
-  .section-title {
-    font-size: 55px;
-    color: blue;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px double;
-    text-align: center;
-    
-  }
-
-  .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-  }
-
-    .flex-item1 {
-      width: 91%;
-      border-radius: 14px;
-      border: 4px solid royalblue;
-      background-color: gray;
-      font-size: 22px;
-      font-weight: bold;
-      margin-bottom: 15px;
-      background-image: url('../images/image-1.jpg');
-      background-size: cover;
-      background-position: center;
-      padding: 20px 0;
-      min-height: 300px;
-      display: flex;
-      flex-direction: column;
-      margin: 55px;
-    }
-
-    .flex-item2 {
-      width: 45%;
-      border-radius: 14px;
-      border: 4px solid royalblue;
-      background-color: gray;
-      font-size: 22px;
-      font-weight: bold;
-      margin-bottom: 15px;
-      background-image: url('../images/image-2.jpg');
-      background-size: cover;
-      background-position: center;
-      padding: 20px 0;
-      min-height: 250px;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .flex-item3 {
-      width: 45%;
-      border-radius: 14px;
-      border: 4px solid royalblue;
-      background-color: gray;
-      font-size: 22px;
-      font-weight: bold;
-      margin-bottom: 15px;
-      background-image: url('../images/image-3.jpg');
-      background-size: cover;
-      background-position: center;
-      padding: 20px 0;
-      min-height: 250px;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .flex-item4 {
-      width: 45%;
-      border-radius: 14px;
-      border: 4px solid royalblue;
-      background-color: gray;
-      font-size: 22px;
-      font-weight: bold;
-      margin-bottom: 15px;
-      background-image: url('../images/image-4.PNG');
-      background-size: cover;
-      background-position: center;
-      padding: 20px 0;
-      min-height: 250px;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .flex-item5 {
-      width: 45%;
-      border-radius: 14px;
-      border: 4px solid royalblue;
-      background-color: gray;
-      font-size: 22px;
-      font-weight: bold;
-      margin-bottom: 15px;
-      background-image: url('../images/image-5.jpg');
-      background-size: cover;
-      background-position: center;
-      padding: 20px 0;
-      min-height: 250px;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .flex-item1 span {
-      margin-top: auto;
-      width: 100%;
-      background-color: royalblue;
-      color: white;
-      padding: 10px 5px;
-      text-align: center;
-    }
-
-    .flex-item2 span {
-      margin-top: auto;
-      width: 100%;
-      background-color: royalblue;
-      color: white;
-      padding: 10px 5px;
-      text-align: center;
-    }
-
-    .flex-item3 span {
-      margin-top: auto;
-      width: 100%;
-      background-color: royalblue;
-      color: white;
-      padding: 10px 5px;
-      text-align: center;
-    }
-
-    .flex-item4 span {
-      margin-top: auto;
-      width: 100%;
-      background-color: royalblue;
-      color: white;
-      padding: 10px 5px;
-      text-align: center;
-    }
-
-    .flex-item5 span {
-      margin-top: auto;
-      width: 100%;
-      background-color: royalblue;
-      color: white;
-      padding: 10px 5px;
-      text-align: center;
-    }
-
-  
-
-
-  #My-Work {
-    margin: auto;
-  }
-
-  #My-Work img {
-    margin: 2px;
-    border: 4px solid red;
-    display: inline-block;
-  }
-
-  
   header {
-  padding: 20px 35px;
-  background-color: royalblue;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    padding: 20px 35px;
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   header h1 {
@@ -210,14 +40,6 @@
 
   header nav {
     margin: 7px 0;
-}
-
-  #svgintro {
-    color: orange;
-    border-color: palegreen;
-    border-width: 0ch;
-    border: solid;
-    text-align: right;
   }
 
   nav ul {
@@ -255,7 +77,30 @@
     font-size: 30px;
     color: red;
   }
+  
+  #About-Me img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    height: 250px;
+  }
 
+  main {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border: 4px solid gray;
+  }
+
+  .section-title {
+    font-size: 55px;
+    color: blue;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px double;
+    text-align: center;
+  }
 
   #About-Me p {
     display: inline-block;
@@ -265,24 +110,263 @@
     width : 75%;
     margin: 25px;
   }
+  
+    #About-Me p:hover {
+      color: royalblue;
+      text-transform: capitalize;
+    }
 
-  #About-Me p:hover {
-    color: royalblue;
-    text-transform: capitalize;
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
   }
+
+  .flex-item1 {
+    width: 91%;
+    border-radius: 14px;
+    border: 4px solid royalblue;
+    background-color: gray;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-image: url('../images/image-1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 55px;
+  }
+
+  .flex-item2 {
+    width: 45%;
+    border-radius: 14px;
+    border: 4px solid royalblue;
+    background-color: gray;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-image: url('../images/image-2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    }
+
+  .flex-item3 {
+    width: 45%;
+    border-radius: 14px;
+    border: 4px solid royalblue;
+    background-color: gray;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-image: url('../images/image-3.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-item4 {
+    width: 45%;
+    border-radius: 14px;
+    border: 4px solid royalblue;
+    background-color: gray;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-image: url('../images/image-4.PNG');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-item5 {
+    width: 45%;
+    border-radius: 14px;
+    border: 4px solid royalblue;
+    background-color: gray;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-image: url('../images/image-5.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .flex-item1 span {
+    margin-top: auto;
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+  }
+
+  .flex-item2 span {
+    margin-top: auto;
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+  }
+
+  .flex-item3 span {
+    margin-top: auto;
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+  }
+
+  .flex-item4 span {
+    margin-top: auto;
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+  }
+
+  .flex-item5 span {
+    margin-top: auto;
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+  }  
+  
+  .flex-item3 {
+    width: 45%;
+    border-radius: 14px;
+    border: 4px solid royalblue;
+    background-color: gray;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-image: url('../images/image-3.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-item4 {
+    width: 45%;
+    border-radius: 14px;
+    border: 4px solid royalblue;
+    background-color: gray;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-image: url('../images/image-4.PNG');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+   }
+
+  .flex-item5 {
+    width: 45%;
+    border-radius: 14px;
+    border: 4px solid royalblue;
+    background-color: gray;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-image: url('../images/image-5.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-item1 span {
+    margin-top: auto;
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+  }
+
+  .flex-item2 span {
+    margin-top: auto;
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+  }
+
+  .flex-item3 span {
+    margin-top: auto;
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+  }
+
+  .flex-item4 span {
+    margin-top: auto;
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+  }
+
+  .flex-item5 span {
+    margin-top: auto;
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+  }  
+
+  #My-Work {
+    margin: auto;
+  }
+
+  #My-Work img {
+    margin: 2px;
+    border: 4px solid red;
+    display: inline-block;
+  }
+
+
+  
 
   li:hover {
     text-rendering: optimizeSpeed;
     size: 100px;
     font-weight: 800;
-  }
-
-  
-  #About-Me img {
-    border-radius: 50%;
-    max-width: 100%;
-    height: auto;
-    height: 250px;
   }
 
 footer {
@@ -379,7 +463,6 @@ display: flex;
   .flex-container {
     flex: 100%;  
   }
-
 }
 
 @media screen and (max-width: 575px) {
