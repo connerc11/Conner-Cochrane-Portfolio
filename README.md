@@ -6,6 +6,6 @@ This is a project updated with my portfolio. This contains the projects that I h
 https://connerc11.github.io/Conner-Cochrane-Portfolio/
 
 ~The following is an image of the portfolio:
-![](../images/readme.jpg)
+![Get Started](./assets/images/readme.jpg)
 
 
