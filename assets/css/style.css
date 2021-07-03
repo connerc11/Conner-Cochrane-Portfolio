@@ -11,8 +11,8 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    border-left: 10px solid gold;
-    border-right: 10px solid gold;  
+    border-left: 10px solid royalblue;
+    border-right: 10px solid royalblue;  
   }
   
 
@@ -26,11 +26,12 @@
 
   .section-title {
     font-size: 55px;
-    color: teal;
+    color: blue;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
+    border-bottom: 3px double;
     text-align: center;
+    
   }
 
   .flex-container {
@@ -43,7 +44,7 @@
     .flex-item1 {
       width: 45%;
       border-radius: 14px;
-      border: 4px solid red;
+      border: 4px solid royalblue;
       background-color: gray;
       font-size: 22px;
       font-weight: bold;
@@ -60,7 +61,7 @@
     .flex-item2 {
       width: 45%;
       border-radius: 14px;
-      border: 4px solid red;
+      border: 4px solid royalblue;
       background-color: gray;
       font-size: 22px;
       font-weight: bold;
@@ -77,7 +78,7 @@
     .flex-item3 {
       width: 45%;
       border-radius: 14px;
-      border: 4px solid red;
+      border: 4px solid royalblue;
       background-color: gray;
       font-size: 22px;
       font-weight: bold;
@@ -94,7 +95,7 @@
     .flex-item4 {
       width: 45%;
       border-radius: 14px;
-      border: 4px solid red;
+      border: 4px solid royalblue;
       background-color: gray;
       font-size: 22px;
       font-weight: bold;
@@ -111,7 +112,7 @@
     .flex-item5 {
       width: 45%;
       border-radius: 14px;
-      border: 4px solid red;
+      border: 4px solid royalblue;
       background-color: gray;
       font-size: 22px;
       font-weight: bold;
@@ -128,8 +129,8 @@
     .flex-item1 span {
       margin-top: auto;
       width: 100%;
-      background-color: gold;
-      color: red;
+      background-color: royalblue;
+      color: white;
       padding: 10px 5px;
       text-align: center;
     }
@@ -137,8 +138,8 @@
     .flex-item2 span {
       margin-top: auto;
       width: 100%;
-      background-color: gold;
-      color: red;
+      background-color: royalblue;
+      color: white;
       padding: 10px 5px;
       text-align: center;
     }
@@ -146,8 +147,8 @@
     .flex-item3 span {
       margin-top: auto;
       width: 100%;
-      background-color: gold;
-      color: red;
+      background-color: royalblue;
+      color: white;
       padding: 10px 5px;
       text-align: center;
     }
@@ -155,8 +156,8 @@
     .flex-item4 span {
       margin-top: auto;
       width: 100%;
-      background-color: gold;
-      color: red;
+      background-color: royalblue;
+      color: white;
       padding: 10px 5px;
       text-align: center;
     }
@@ -164,8 +165,8 @@
     .flex-item5 span {
       margin-top: auto;
       width: 100%;
-      background-color: gold;
-      color: red;
+      background-color: royalblue;
+      color: white;
       padding: 10px 5px;
       text-align: center;
     }
@@ -186,7 +187,7 @@
   
   header {
   padding: 20px 35px;
-  background-color: gold;
+  background-color: royalblue;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -194,8 +195,8 @@
 
   header h1 {
     font-weight: bold;
-    font-size: 36px;
-    color: red;
+    font-size: 45px;
+    color: white;
     margin: 0;
     display: inline;
   }
@@ -243,6 +244,11 @@
     flex-wrap: wrap;
   }
 
+  .conner h2 {
+    font-size: 30px;
+    color: red;
+  }
+
 
   #About-Me p {
     display: inline-block;
@@ -254,7 +260,7 @@
   }
 
   #About-Me p:hover {
-    color: green;
+    color: royalblue;
     text-transform: capitalize;
     text-shadow: hotpink;
   }
@@ -277,7 +283,7 @@
   
   footer {
     padding: 20px 35px;
-    background-color: gold;
+    background-color: royalblue;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -285,15 +291,15 @@
 
   footer h2 {
     font-weight: bold;
-    font-size: 36px;
-    color: red;
+    font-size: 45px;
+    color: white;
     margin: 0;
     display: inline;
 }
 
   footer a {
     text-decoration: none;
-    color: red;
+    color: white;
 }
 
   footer nav {
